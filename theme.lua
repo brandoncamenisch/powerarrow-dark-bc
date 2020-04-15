@@ -1,10 +1,3 @@
---[[
-
-     Powerarrow Dark Awesome WM theme
-     github.com/lcpz
-
---]]
-
 local gears = require("gears")
 local lain  = require("lain")
 local awful = require("awful")
@@ -15,7 +8,7 @@ local os = os
 local my_table = awful.util.table or gears.table -- 4.{0,1} compatibility
 
 local theme                                     = {}
-theme.dir                                       = os.getenv("HOME") .. "/.config/awesome/themes/powerarrow-dark"
+theme.dir                                       = os.getenv("HOME") .. "/.config/awesome/bc-themes/powerarrow-dark-bc"
 theme.wallpaper                                 = os.getenv("HOME") .. "/Downloads/wall.png"
 theme.font                                      = "Droid Sans Mono for Powerline Plus Nerd File Types Mono 12"
 theme.fg_normal                                 = "#DDDDFF"
